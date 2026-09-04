@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+    height: 70vh;
+    width: 100%;
+    position: relative;
+    background-color: black;
+    overflow: hidden;
+}
+
+.hero-img {
+    height: 100%;
+    width: 100%;
+}
+
+.hero-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* HERO TEXT */
+
+.hero-text {
+    position: absolute;
+
+    top: 100px;
+    left: 150px;
+
+    width: 40%;
+
+    color: ivory;
+
+    z-index: 2;
+}
+
+
+/* SMALL GOLD LINE / INTRO */
+
+.hero-text h3 {
+    color: #c9a227;
+
+    font-family: Georgia, "Times New Roman", serif;
+
+    font-size: 13px;
+
+    font-weight: normal;
+
+    letter-spacing: 5px;
+
+    margin-bottom: 18px;
+}
+
+
+/* MAIN HEADING */
+
+.hero-text h1 {
+    color: #e0c46c;
+
+    font-family: Georgia, "Times New Roman", serif;
+
+    font-size: 56px;
+
+    font-weight: normal;
+
+    letter-spacing: 1px;
+
+    line-height: 1.1;
+
+    margin-bottom: 20px;
+}
+
+
+/* ELEGANT TAGLINE */
+
+.hero-text p:first-of-type {
+    color: #f5f1e8;
+
+    font-family: "Great Vibes", cursive;
+
+    font-size: 27px;
+
+    letter-spacing: 1px;
+
+    line-height: 1.4;
+
+    margin-bottom: 10px;
+}
+
+
+/* DESCRIPTION */
+
+.hero-text p:last-of-type {
+    color: #b9b0a0;
+
+    font-family: Georgia, "Times New Roman", serif;
+
+    font-size: 14px;
+
+    letter-spacing: 0.8px;
+
+    line-height: 1.8;
+
+    max-width: 380px;
+
+    margin-bottom: 25px;
+}
+
+
+.hero-text button {
+    margin-top: 25px;
+
+    padding: 14px 32px;
+
+    background-color: transparent;
+
+    border: 1px solid #c9a227;
+
+    color: #e0c46c;
+
+    font-size: 15px;
+
+    font-weight: bold;
+
+    letter-spacing: 2px;
+
+    cursor: pointer;
+
+    transition: all 0.3s ease;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.hero-text button:hover {
+    background-color: #c9a227;
+    color: #0b0b0b;
+    border-color: #e0c46c;
+    box-shadow: 0 5px 20px rgba(201, 162, 39, 0.25);
+}

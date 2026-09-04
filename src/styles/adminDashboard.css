@@ -1,0 +1,204 @@
+.admin-dashboard-page {
+  min-height: 100vh;
+  background: #000;
+  color: ivory;
+  padding: 40px 50px;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+
+
+/* HEADER */
+
+.admin-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #333;
+  padding-bottom: 25px;
+  margin-bottom: 35px;
+}
+
+.admin-header p {
+  color: #c9a227;
+  letter-spacing: 3px;
+  font-size: 13px;
+  margin: 0 0 8px;
+}
+
+.admin-header h1 {
+  margin: 0;
+  font-size: 32px;
+  font-weight: normal;
+}
+
+.admin-header button {
+  padding: 11px 25px;
+  background: transparent;
+  border: 1px solid #c9a227;
+  color: #e0c46c;
+  cursor: pointer;
+}
+
+.admin-header button:hover {
+  background: #c9a227;
+  color: #000;
+}
+
+
+/* STATISTICS */
+
+.admin-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin-bottom: 45px;
+}
+
+.admin-stat-card {
+  background: #111;
+  border: 1px solid #333;
+  padding: 30px;
+}
+
+.admin-stat-card p {
+  color: #aaa;
+  font-size: 13px;
+  letter-spacing: 1px;
+  margin: 0 0 15px;
+}
+
+.admin-stat-card h2 {
+  color: #e0c46c;
+  font-size: 35px;
+  margin: 0;
+}
+
+
+/* SECTION */
+
+.admin-section {
+  background: #0d0d0d;
+  border: 1px solid #292929;
+  margin-bottom: 35px;
+  padding: 25px;
+}
+
+.admin-section-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.admin-section-heading h2 {
+  margin: 0;
+  color: ivory;
+  font-size: 23px;
+  font-weight: normal;
+}
+
+.admin-section-heading span {
+  color: #c9a227;
+  font-size: 14px;
+}
+
+
+/* TABLE */
+
+.admin-table-container {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.admin-table-container table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.admin-table-container th {
+  color: #c9a227;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-align: left;
+  padding: 15px;
+  border-bottom: 1px solid #444;
+}
+
+.admin-table-container td {
+  padding: 15px;
+  border-bottom: 1px solid #292929;
+  color: #ddd;
+  font-size: 14px;
+}
+
+.admin-table-container tr:hover {
+  background: #151515;
+}
+
+
+/* PRODUCT IMAGE */
+
+.admin-product-image {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+
+
+/* DELETE */
+
+.delete-product {
+  background: transparent;
+  border: 1px solid #8b3a3a;
+  color: #d88;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.delete-product:hover {
+  background: #8b3a3a;
+  color: white;
+}
+
+
+/* ORDER STATUS */
+
+.order-status {
+  color: #e0c46c;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 900px) {
+
+  .admin-dashboard-page {
+    padding: 30px 20px;
+  }
+
+  .admin-stats {
+    grid-template-columns: 1fr;
+  }
+
+  .admin-header {
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  .admin-header {
+    flex-direction: column;
+  }
+
+  .admin-header button {
+    width: 100%;
+  }
+
+  .admin-section {
+    padding: 15px;
+  }
+
+}

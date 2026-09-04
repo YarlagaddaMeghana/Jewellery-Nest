@@ -1,0 +1,760 @@
+{
+  "users": [
+    {
+      "fullname": "meghanayarlagadda",
+      "email": "meghanayarlagadda785@gmail.com",
+      "phone": "9440100111",
+      "password": "meghana@785",
+      "id": "G2paeQrS6rg"
+    },
+    {
+      "fullname": "meghana",
+      "email": "meghanayarlagadda@gmail.com",
+      "phone": "1234567890",
+      "password": "Amar@2103",
+      "id": "qxQYQciWiIQ"
+    },
+    {
+      "fullname": "meghana",
+      "email": "meghanayarlagadda@gmail.com",
+      "phone": "9440100111",
+      "password": "Meghana@785",
+      "id": "51cm2hXuMTk"
+    }
+  ],
+  "products": [
+    {
+      "id": "25",
+      "name": "Elegant Gold Ring",
+      "category": "Rings",
+      "gender": "Women",
+      "price": 42999,
+      "image": "https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw4064a6a3/images/hi-res/510122FAAAA00.jpg",
+      "occasion": "Gift",
+      "style": "Elegant"
+    },
+    {
+      "id": "26",
+      "name": "Classic Gold Ring",
+      "category": "Rings",
+      "gender": "Women",
+      "price": 38999,
+      "image": "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwd06a3285/images/hi-res/51K2I2FAPAA00_1.jpg",
+      "occasion": "Casual",
+      "style": "Classic"
+    },
+    {
+      "id": "27",
+      "name": "Floral Gold Ring",
+      "category": "Rings",
+      "gender": "Women",
+      "price": 45999,
+      "image": "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw2ebe2ae6/images/hi-res/513013FLTAA00_1.jpg",
+      "occasion": "Party",
+      "style": "Traditional"
+    },
+    {
+      "id": "28",
+      "name": "Diamond Gold Ring",
+      "category": "Rings",
+      "gender": "Women",
+      "price": 57999,
+      "image": "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwfd825733/images/hi-res/50D5JSFFTAA26_1.jpg",
+      "occasion": "Wedding",
+      "style": "Elegant"
+    },
+    {
+      "id": "29",
+      "name": "Elegant Diamond Ring",
+      "category": "Rings",
+      "gender": "Women",
+      "price": 62999,
+      "image": "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw9c65b0fa/images/hi-res/50D6JDFBPAA26_1.jpg",
+      "occasion": "Wedding",
+      "style": "Elegant"
+    },
+    {
+      "id": "30",
+      "name": "Classic Gold Ring",
+      "category": "Rings",
+      "gender": "Women",
+      "price": 39999,
+      "image": "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwbdeeadfa/images/hi-res/50D5S2FJNAA2A_1.jpg",
+      "occasion": "Casual",
+      "style": "Classic"
+    },
+    {
+      "id": "31",
+      "name": "Delicate Gold Ring",
+      "category": "Rings",
+      "gender": "Women",
+      "price": 36999,
+      "image": "https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwcee50830/images/hi-res/50D5S2FCOAA2A_1.jpg",
+      "occasion": "Office",
+      "style": "Minimal"
+    },
+    {
+      "id": "32",
+      "name": "Diamond Floral Ring",
+      "category": "Rings",
+      "gender": "Women",
+      "price": 54999,
+      "image": "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw708018a9/images/hi-res/50D5H1FDDAA2A_1.jpg",
+      "occasion": "Wedding",
+      "style": "Elegant"
+    },
+    {
+      "id": "33",
+      "name": "Elegant Diamond Ring",
+      "category": "Rings",
+      "gender": "Women",
+      "price": 59999,
+      "image": "https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwcd38e09d/images/hi-res/50D6JDFBQAA26_1.jpg",
+      "occasion": "Wedding",
+      "style": "Elegant"
+    },
+    {
+      "id": "35",
+      "name": "Gold Drop Earrings",
+      "category": "Earrings",
+      "gender": "Women",
+      "price": 35999,
+      "image": "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw932936c5/images/hi-res/50D6JDSBMAGA26_1.jpg",
+      "occasion": "Gift",
+      "style": "Minimal"
+    },
+    {
+      "id": "36",
+      "name": "Elegant Gold Earrings",
+      "category": "Earrings",
+      "gender": "Women",
+      "price": 32999,
+      "image": "https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw2a3baa7f/images/hi-res/50D6JDSAZAGA26_1.jpg",
+      "occasion": "Gift",
+      "style": "Elegant"
+    },
+    {
+      "id": "37",
+      "name": "Diamond Gold Earrings",
+      "category": "Earrings",
+      "gender": "Women",
+      "price": 48999,
+      "image": "https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw5fd14fca/images/hi-res/50D6JDHBJAAA26_1.jpg",
+      "occasion": "Wedding",
+      "style": "Elegant"
+    },
+    {
+      "id": "38",
+      "name": "Classic Gold Earrings",
+      "category": "Earrings",
+      "gender": "Women",
+      "price": 29999,
+      "image": "https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwade2d5e1/images/hi-res/500760SMAAGA09_1.jpg",
+      "occasion": "Casual",
+      "style": "Classic"
+    },
+    {
+      "id": "40",
+      "name": "Diamond Stud Earrings",
+      "category": "Earrings",
+      "gender": "Women",
+      "price": 51999,
+      "image": "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwb815c8eb/images/hi-res/500109DAAABAPL_1.jpg",
+      "occasion": "Wedding",
+      "style": "Elegant"
+    },
+    {
+      "id": "41",
+      "name": "Gold Statement Earrings",
+      "category": "Earrings",
+      "gender": "Women",
+      "price": 37999,
+      "image": "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwcf39a490/images/hi-res/50D5L1SIJAGA2A_1.jpg",
+      "occasion": "Party",
+      "style": "Elegant"
+    },
+    {
+      "id": "42",
+      "name": "Elegant Diamond Earrings",
+      "category": "Earrings",
+      "gender": "Women",
+      "price": 56999,
+      "image": "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwe973aade/images/hi-res/50D2PTDTMAGA2A_1.jpg",
+      "occasion": "Wedding",
+      "style": "Elegant"
+    },
+    {
+      "id": "43",
+      "name": "Classic Gold Earrings",
+      "category": "Earrings",
+      "gender": "Women",
+      "price": 31999,
+      "image": "https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwafe0d1c0/images/hi-res/50D6JDSAYAGA26_1.jpg",
+      "occasion": "Casual",
+      "style": "Classic"
+    },
+    {
+      "id": "44",
+      "name": "Gold Earrings",
+      "category": "Earrings",
+      "gender": "Women",
+      "price": 34999,
+      "image": "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw5fd14fca/images/hi-res/50D6JDHBJAAA26_1.jpg",
+      "occasion": "Gift",
+      "style": "Elegant"
+    },
+    {
+      "id": "45",
+      "name": "Elegant Gold Bracelet",
+      "category": "Bracelets",
+      "gender": "Women",
+      "price": 45999,
+      "image": "https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwcb1830ce/images/hi-res/51D2FFBCXAA00_1.jpg",
+      "occasion": "Gift",
+      "style": "Elegant"
+    },
+    {
+      "id": "47",
+      "name": "Designer Gold Bracelet",
+      "category": "Bracelets",
+      "gender": "Women",
+      "price": 48999,
+      "image": "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw06c41368/images/hi-res/51D2FFBCMAA00_1.jpg",
+      "occasion": "Wedding",
+      "style": "Modern"
+    },
+    {
+      "id": "48",
+      "name": "Gold Bracelet",
+      "category": "Bracelets",
+      "gender": "Women",
+      "price": 41999,
+      "image": "https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw7e8c6186/images/hi-res/513220BATAA00_1.jpg",
+      "occasion": "Gift",
+      "style": "Elegant"
+    },
+    {
+      "id": "49",
+      "name": "Elegant Gold Bracelet",
+      "category": "Bracelets",
+      "gender": "Women",
+      "price": 43999,
+      "image": "https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw40d3e453/images/hi-res/512220BANAA00_1.jpg",
+      "occasion": "Gift",
+      "style": "Elegant"
+    },
+    {
+      "id": "50",
+      "name": "Classic Gold Bracelet",
+      "category": "Bracelets",
+      "gender": "Women",
+      "price": 39999,
+      "image": "https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwd443a266/images/hi-res/51D1SCBCIAA00_1.jpg",
+      "occasion": "Casual",
+      "style": "Classic"
+    },
+    {
+      "id": "51",
+      "name": "Designer Gold Bracelet",
+      "category": "Bracelets",
+      "gender": "Women",
+      "price": 57999,
+      "image": "https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw98b4df0f/images/hi-res/51D3B2BBVAA00_1.jpg",
+      "occasion": "Wedding",
+      "style": "Modern"
+    },
+    {
+      "id": "52",
+      "name": "Elegant Gold Bracelet",
+      "category": "Bracelets",
+      "gender": "Women",
+      "price": 49999,
+      "image": "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw5ae05f72/images/hi-res/51D4MPBEKAA00_1.jpg",
+      "occasion": "Gift",
+      "style": "Elegant"
+    },
+    {
+      "id": "53",
+      "name": "Gold Bracelet",
+      "category": "Bracelets",
+      "gender": "Women",
+      "price": 46999,
+      "image": "https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw06c41368/images/hi-res/51D2FFBCMAA00_1.jpg",
+      "occasion": "Gift",
+      "style": "Elegant"
+    },
+    {
+      "id": "54",
+      "name": "Designer Gold Bracelet",
+      "category": "Bracelets",
+      "gender": "Women",
+      "price": 54999,
+      "image": "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw98b4df0f/images/hi-res/51D3B2BBVAA00_1.jpg",
+      "occasion": "Wedding",
+      "style": "Modern"
+    },
+    {
+      "id": "55",
+      "name": "Elegant Gold Necklace",
+      "category": "Necklaces",
+      "gender": "Women",
+      "price": 68999,
+      "image": "https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwabab3541/images/hi-res/55D5WMNBLAA02_1.jpg",
+      "occasion": "Gift",
+      "style": "Elegant"
+    },
+    {
+      "id": "56",
+      "name": "Classic Gold Necklace",
+      "category": "Necklaces",
+      "gender": "Women",
+      "price": 72999,
+      "image": "https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw3eada7a3/images/hi-res/50D6VDNAEAA26_1.jpg",
+      "occasion": "Casual",
+      "style": "Classic"
+    },
+    {
+      "id": "57",
+      "name": "Diamond Gold Necklace",
+      "category": "Necklaces",
+      "gender": "Women",
+      "price": 84999,
+      "image": "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwee5e2f0f/images/hi-res/55D6PMNKMAA26_1.jpg",
+      "occasion": "Wedding",
+      "style": "Elegant"
+    },
+    {
+      "id": "58",
+      "name": "Elegant Gold Necklace",
+      "category": "Necklaces",
+      "gender": "Women",
+      "price": 75999,
+      "image": "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw278376d0/images/hi-res/50D5JSNENAA29_1.jpg",
+      "occasion": "Gift",
+      "style": "Elegant"
+    },
+    {
+      "id": "59",
+      "name": "Designer Gold Necklace",
+      "category": "Necklaces",
+      "gender": "Women",
+      "price": 89999,
+      "image": "https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwd44ed582/images/hi-res/51T356NBFAAP1_1.jpg",
+      "occasion": "Wedding",
+      "style": "Modern"
+    },
+    {
+      "id": "60",
+      "name": "Classic Gold Necklace",
+      "category": "Necklaces",
+      "gender": "Women",
+      "price": 64999,
+      "image": "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw1ee5204f/images/hi-res/51W4PINMTAA00_1.jpg",
+      "occasion": "Casual",
+      "style": "Classic"
+    },
+    {
+      "id": "61",
+      "name": "Elegant Gold Necklace",
+      "category": "Necklaces",
+      "gender": "Women",
+      "price": 79999,
+      "image": "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwc94ad9ac/images/hi-res/51M5A1CAMLA00_1.jpg",
+      "occasion": "Gift",
+      "style": "Elegant"
+    },
+    {
+      "id": "62",
+      "name": "Diamond Gold Necklace",
+      "category": "Necklaces",
+      "gender": "Women",
+      "price": 94999,
+      "image": "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwc016b117/images/hi-res/50O6VRNCXAB37_1.jpg",
+      "occasion": "Wedding",
+      "style": "Elegant"
+    },
+    {
+      "id": "63",
+      "name": "Gold Necklace",
+      "category": "Necklaces",
+      "gender": "Women",
+      "price": 71999,
+      "image": "https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw4b1a415b/images/hi-res/55D5WXNALAA02_1.jpg",
+      "occasion": "Gift",
+      "style": "Elegant"
+    },
+    {
+      "id": "64",
+      "name": "Designer Gold Necklace",
+      "category": "Necklaces",
+      "gender": "Women",
+      "price": 82999,
+      "image": "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw9ce32d25/images/hi-res/51M5HTNASAA00_1.jpg?sw=480&sh=480",
+      "occasion": "Wedding",
+      "style": "Modern"
+    },
+    {
+      "id": "65",
+      "name": "Diamond Men's Ring",
+      "category": "Rings",
+      "gender": "Men",
+      "price": 59999,
+      "image": "https://www.khazanajewellery.com/on/demandware.static/-/Sites-khazana-master-catalog/default/dwd343ee8b/images/DiamondImages/Rings/GFO0823583_FV.jpg",
+      "occasion": "Wedding",
+      "style": "Elegant"
+    },
+    {
+      "id": "66",
+      "name": "Classic Men's Gold Ring",
+      "category": "Rings",
+      "gender": "Men",
+      "price": 44999,
+      "image": "https://www.khazanajewellery.com/on/demandware.static/-/Sites-khazana-master-catalog/default/dw715e35e2/images/GoldImages/Rings/FRTNKID266_FV.jpg",
+      "occasion": "Casual",
+      "style": "Classic"
+    },
+    {
+      "id": "67",
+      "name": "Men's Gold Ring",
+      "category": "Rings",
+      "gender": "Men",
+      "price": 47999,
+      "image": "https://www.khazanajewellery.com/on/demandware.static/-/Sites-khazana-master-catalog/default/dwfda0d0ea/images/GoldImages/Rings/FRBBKID215_FV.jpg",
+      "occasion": "Gift",
+      "style": "Elegant"
+    },
+    {
+      "id": "68",
+      "name": "Diamond Men's Ring",
+      "category": "Rings",
+      "gender": "Men",
+      "price": 69999,
+      "image": "https://www.khazanajewellery.com/on/demandware.static/-/Sites-khazana-master-catalog/default/dw79ad2aa0/images/DiamondImages/Rings/LFR0320541_PROP.jpg",
+      "occasion": "Wedding",
+      "style": "Elegant"
+    },
+    {
+      "id": "69",
+      "name": "Diamond Men's Ring",
+      "category": "Rings",
+      "gender": "Men",
+      "price": 62999,
+      "image": "https://www.khazanajewellery.com/on/demandware.static/-/Sites-khazana-master-catalog/default/dw1e6e58c1/images/DiamondImages/Rings/GFO0823583_SV.jpg",
+      "occasion": "Wedding",
+      "style": "Elegant"
+    },
+    {
+      "id": "70",
+      "name": "Men's Gold Ring",
+      "category": "Rings",
+      "gender": "Men",
+      "price": 49999,
+      "image": "https://www.khazanajewellery.com/on/demandware.static/-/Sites-khazana-master-catalog/default/dw44b4f0f5/images/GoldImages/Rings/FRBBKID217_FV.jpg",
+      "occasion": "Gift",
+      "style": "Elegant"
+    },
+    {
+      "id": "71",
+      "name": "Men's Gold Chain",
+      "category": "Chains",
+      "gender": "Men",
+      "price": 57999,
+      "image": "https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw23ad2902/images/hi-res/513219CVGAA00_1.jpg",
+      "occasion": "Gift",
+      "style": "Elegant"
+    },
+    {
+      "id": "72",
+      "name": "Classic Men's Chain",
+      "category": "Chains",
+      "gender": "Men",
+      "price": 62999,
+      "image": "https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw69115bc4/images/hi-res/513220CMTAA00_1.jpg",
+      "occasion": "Casual",
+      "style": "Classic"
+    },
+    {
+      "id": "73",
+      "name": "Designer Men's Chain",
+      "category": "Chains",
+      "gender": "Men",
+      "price": 68999,
+      "image": "https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw8199ce24/images/hi-res/513220CRWAA00_1.jpg",
+      "occasion": "Wedding",
+      "style": "Modern"
+    },
+    {
+      "id": "74",
+      "name": "Classic Men's Chain",
+      "category": "Chains",
+      "gender": "Men",
+      "price": 62999,
+      "image": "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw69115bc4/images/hi-res/513220CMTAA00_1.jpg",
+      "occasion": "Casual",
+      "style": "Classic"
+    },
+    {
+      "id": "75",
+      "name": "Men's Gold Chain",
+      "category": "Chains",
+      "gender": "Men",
+      "price": 59999,
+      "image": "https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw30f41932/images/hi-res/511038CUAAA00_1.jpg",
+      "occasion": "Gift",
+      "style": "Elegant"
+    },
+    {
+      "id": "76",
+      "name": "Designer Men's Chain",
+      "category": "Chains",
+      "gender": "Men",
+      "price": 64999,
+      "image": "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw67f71dd3/images/hi-res/513220CLXAA00_1.jpg",
+      "occasion": "Wedding",
+      "style": "Modern"
+    },
+    {
+      "id": "77",
+      "name": "Classic Men's Chain",
+      "category": "Chains",
+      "gender": "Men",
+      "price": 61999,
+      "image": "https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwc1aab03c/images/hi-res/511107CTUAA00_1.jpg",
+      "occasion": "Casual",
+      "style": "Classic"
+    },
+    {
+      "id": "78",
+      "name": "Men's Gold Bracelet",
+      "gender": "Men",
+      "category": "Bracelets",
+      "price": 54999,
+      "image": "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwf9fd88c2/images/hi-res/510640BXAAA00_1.jpg",
+      "occasion": "Gift",
+      "style": "Elegant"
+    },
+    {
+      "id": "79",
+      "name": "Men's Gold Bracelet",
+      "gender": "Men",
+      "category": "Bracelets",
+      "price": 62999,
+      "image": "https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw671f41f9/images/hi-res/51G3PTBGQAA00_1.jpg",
+      "occasion": "Gift",
+      "style": "Elegant"
+    },
+    {
+      "id": "80",
+      "name": "Men's Gold Bracelet",
+      "gender": "Men",
+      "category": "Bracelets",
+      "price": 58999,
+      "image": "https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw1e159892/images/hi-res/513515BBQAA00_1.jpg",
+      "occasion": "Gift",
+      "style": "Elegant"
+    },
+    {
+      "id": "81",
+      "name": "Men's Gold Bracelet",
+      "gender": "Men",
+      "category": "Bracelets",
+      "price": 67999,
+      "image": "https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwcfd876d5/images/hi-res/50G6PLBAELA00_1.jpg",
+      "occasion": "Gift",
+      "style": "Elegant"
+    },
+    {
+      "id": "82",
+      "name": "Men's Gold Bracelet",
+      "gender": "Men",
+      "category": "Bracelets",
+      "price": 72999,
+      "image": "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwb1440a88/images/hi-res/51D5V3BBRLA00_1.jpg",
+      "occasion": "Gift",
+      "style": "Elegant"
+    },
+    {
+      "id": "83",
+      "name": "Men's Gold Bracelet",
+      "gender": "Men",
+      "category": "Bracelets",
+      "price": 49999,
+      "image": "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw1fd752bf/images/hi-res/512218BCEAA00_1.jpg",
+      "occasion": "Gift",
+      "style": "Elegant"
+    },
+    {
+      "id": "84",
+      "name": "Men's Gold Bracelet",
+      "gender": "Men",
+      "category": "Bracelets",
+      "price": 64999,
+      "image": "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw8f758a4c/images/hi-res/50G6PLBADLA00_1.jpg",
+      "occasion": "Gift",
+      "style": "Elegant"
+    },
+    {
+      "id": "85",
+      "name": "Men's Gold Bracelet",
+      "gender": "Men",
+      "category": "Bracelets",
+      "price": 69999,
+      "image": "https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwf5d26f8c/images/hi-res/51G5V2BBDAA00_1.jpg",
+      "occasion": "Gift",
+      "style": "Elegant"
+    }
+  ],
+  "orders": [
+    {
+      "orderId": "JN1787984943036",
+      "customer": {
+        "name": "Meghana Yarlagadda",
+        "email": "meghanayarlagadda785@gmail.com",
+        "phone": "09440100111"
+      },
+      "address": {
+        "address": "Peddabazar, kunkalamarru 3-20",
+        "city": "Bapatla",
+        "state": "Andhra Pradesh",
+        "pincode": "523168"
+      },
+      "payment": "Cash on Delivery",
+      "products": [
+        {
+          "id": "26",
+          "name": "Classic Gold Ring",
+          "category": "Rings",
+          "gender": "Women",
+          "price": 38999,
+          "image": "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwd06a3285/images/hi-res/51K2I2FAPAA00_1.jpg",
+          "quantity": 1
+        }
+      ],
+      "total": 38999,
+      "date": "29/8/2026, 11:59:03 am",
+      "status": "Order Placed",
+      "id": "oCpvFRe7qvQ"
+    },
+    {
+      "orderId": "JN1787985057923",
+      "customer": {
+        "name": "Meghana Yarlagadda",
+        "email": "meghanayarlagadda785@gmail.com",
+        "phone": "09440100111"
+      },
+      "address": {
+        "address": "Peddabazar, kunkalamarru 3-20",
+        "city": "Bapatla",
+        "state": "Andhra Pradesh",
+        "pincode": "523168"
+      },
+      "payment": "Cash on Delivery",
+      "products": [
+        {
+          "id": "56",
+          "name": "Classic Gold Necklace",
+          "category": "Necklaces",
+          "gender": "Women",
+          "price": 72999,
+          "image": "https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw3eada7a3/images/hi-res/50D6VDNAEAA26_1.jpg",
+          "quantity": 1
+        }
+      ],
+      "total": 72999,
+      "date": "29/8/2026, 12:00:57 pm",
+      "status": "Order Placed",
+      "id": "0eUNX6AU8FA"
+    },
+    {
+      "orderId": "JN1787985153590",
+      "customer": {
+        "name": "Meghana Yarlagadda",
+        "email": "meghanayarlagadda785@gmail.com",
+        "phone": "09440100111"
+      },
+      "address": {
+        "address": "Peddabazar, kunkalamarru 3-20",
+        "city": "Bapatla",
+        "state": "Andhra Pradesh",
+        "pincode": "523168"
+      },
+      "payment": "Cash on Delivery",
+      "products": [
+        {
+          "id": "26",
+          "name": "Classic Gold Ring",
+          "category": "Rings",
+          "gender": "Women",
+          "price": 38999,
+          "image": "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwd06a3285/images/hi-res/51K2I2FAPAA00_1.jpg",
+          "quantity": 1
+        }
+      ],
+      "total": 38999,
+      "date": "29/8/2026, 12:02:33 pm",
+      "status": "Order Placed",
+      "id": "6hlEnZJ8NhE"
+    },
+    {
+      "orderId": "JN1787985278130",
+      "customer": {
+        "name": "Meghana Yarlagadda",
+        "email": "meghanayarlagadda785@gmail.com",
+        "phone": "09440100111"
+      },
+      "address": {
+        "address": "Peddabazar, kunkalamarru 3-20",
+        "city": "Bapatla",
+        "state": "Andhra Pradesh",
+        "pincode": "523168"
+      },
+      "payment": "Cash on Delivery",
+      "products": [
+        {
+          "id": "56",
+          "name": "Classic Gold Necklace",
+          "category": "Necklaces",
+          "gender": "Women",
+          "price": 72999,
+          "image": "https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw3eada7a3/images/hi-res/50D6VDNAEAA26_1.jpg",
+          "quantity": 1
+        }
+      ],
+      "total": 72999,
+      "date": "29/8/2026, 12:04:38 pm",
+      "status": "Order Placed",
+      "id": "cd-sGLeJAnk"
+    },
+    {
+      "orderId": "JN1787985475692",
+      "customer": {
+        "name": "Meghana Yarlagadda",
+        "email": "meghanayarlagadda785@gmail.com",
+        "phone": "09440100111"
+      },
+      "address": {
+        "address": "Peddabazar, kunkalamarru 3-20",
+        "city": "Bapatla",
+        "state": "Andhra Pradesh",
+        "pincode": "523168"
+      },
+      "payment": "Cash on Delivery",
+      "products": [
+        {
+          "id": "27",
+          "name": "Floral Gold Ring",
+          "category": "Rings",
+          "gender": "Women",
+          "price": 45999,
+          "image": "https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw2ebe2ae6/images/hi-res/513013FLTAA00_1.jpg",
+          "quantity": 1
+        }
+      ],
+      "total": 45999,
+      "date": "29/8/2026, 12:07:55 pm",
+      "status": "Order Placed",
+      "id": "oYbskRULBGE"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

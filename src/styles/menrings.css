@@ -1,0 +1,309 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* =========================
+   MEN RINGS PAGE
+========================= */
+
+.menrings-page {
+    min-height: 100vh;
+    width: 100%;
+
+    background-color: #0b0b0b;
+
+    padding: 70px 80px;
+}
+
+
+/* =========================
+   HEADING
+========================= */
+
+.menrings-heading {
+    text-align: center;
+
+    margin-bottom: 55px;
+}
+
+.menrings-heading h1 {
+    color: #e0c46c;
+
+    font-family: Georgia, "Times New Roman", serif;
+
+    font-size: 42px;
+
+    font-weight: normal;
+
+    letter-spacing: 2px;
+
+    margin-bottom: 15px;
+}
+
+.menrings-heading p {
+    color: #a8a29a;
+
+    font-family: Georgia, "Times New Roman", serif;
+
+    font-size: 15px;
+
+    letter-spacing: 0.8px;
+
+    line-height: 1.7;
+}
+
+
+/* =========================
+   PRODUCTS GRID
+========================= */
+
+.menrings-products {
+    width: 100%;
+
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 32px;
+}
+
+
+/* =========================
+   PRODUCT CARD
+========================= */
+
+.menrings-products .product-card {
+    background-color: #11100e;
+
+    border: 1px solid #302d27;
+
+    overflow: hidden;
+
+    transition: all 0.4s ease;
+}
+
+.menrings-products .product-card:hover {
+    border-color: #c9a227;
+
+    transform: translateY(-7px);
+
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6);
+}
+
+
+/* =========================
+   PRODUCT IMAGE
+========================= */
+
+.menrings-products .product-image {
+    width: 100%;
+
+    height: 320px;
+
+    background-color: #f5f1e8;
+
+    overflow: hidden;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+}
+
+.menrings-products .product-image img {
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: contain;
+
+    transition: transform 0.5s ease;
+}
+
+.menrings-products .product-card:hover .product-image img {
+    transform: scale(1.06);
+}
+
+
+/* =========================
+   PRODUCT DETAILS
+========================= */
+
+.menrings-products .product-details {
+    padding: 24px 22px;
+
+    text-align: center;
+}
+
+
+/* PRODUCT NAME */
+
+.menrings-products .product-details h3 {
+    color: ivory;
+
+    font-family: Georgia, "Times New Roman", serif;
+
+    font-size: 19px;
+
+    font-weight: normal;
+
+    letter-spacing: 0.5px;
+
+    margin-bottom: 9px;
+}
+
+
+/* CATEGORY */
+
+.menrings-products .product-details p {
+    color: #8f8a82;
+
+    font-size: 11px;
+
+    letter-spacing: 2px;
+
+    text-transform: uppercase;
+
+    margin-bottom: 13px;
+}
+
+
+/* PRICE */
+
+.menrings-products .product-details h4 {
+    color: #e0c46c;
+
+    font-family: Georgia, "Times New Roman", serif;
+
+    font-size: 18px;
+
+    font-weight: normal;
+
+    letter-spacing: 0.5px;
+
+    margin-bottom: 20px;
+}
+
+
+/* =========================
+   VIEW DETAILS BUTTON
+========================= */
+
+.menrings-products .product-details button {
+    width: 100%;
+
+    height: 44px;
+
+    background-color: transparent;
+
+    border: 1px solid #c9a227;
+
+    color: #e0c46c;
+
+    font-size: 11px;
+
+    font-weight: bold;
+
+    letter-spacing: 2px;
+
+    cursor: pointer;
+
+    transition: all 0.3s ease;
+}
+
+.menrings-products .product-details button:hover {
+    background-color: #c9a227;
+
+    color: #0b0b0b;
+
+    box-shadow: 0 5px 15px rgba(201, 162, 39, 0.2);
+}
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 1100px) {
+
+    .menrings-page {
+        padding: 60px 50px;
+    }
+
+    .menrings-products {
+        grid-template-columns: repeat(3, 1fr);
+
+        gap: 25px;
+    }
+
+}
+
+
+/* TABLET */
+
+@media (max-width: 800px) {
+
+    .menrings-page {
+        padding: 50px 30px;
+    }
+
+    .menrings-heading {
+        margin-bottom: 40px;
+    }
+
+    .menrings-heading h1 {
+        font-size: 36px;
+    }
+
+    .menrings-products {
+        grid-template-columns: repeat(2, 1fr);
+
+        gap: 22px;
+    }
+
+    .menrings-products .product-image {
+        height: 280px;
+    }
+
+}
+
+
+/* MOBILE */
+
+@media (max-width: 500px) {
+
+    .menrings-page {
+        padding: 40px 20px;
+    }
+
+    .menrings-heading {
+        margin-bottom: 35px;
+    }
+
+    .menrings-heading h1 {
+        font-size: 30px;
+
+        letter-spacing: 1px;
+    }
+
+    .menrings-heading p {
+        font-size: 13px;
+
+        line-height: 1.6;
+    }
+
+    .menrings-products {
+        grid-template-columns: 1fr;
+
+        gap: 25px;
+    }
+
+    .menrings-products .product-image {
+        height: 300px;
+    }
+
+}

@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* =========================
+   TRENDING SECTION
+========================= */
+
+.trending-section {
+    width: 100%;
+    min-height: 520px;
+
+    background-image:
+        linear-gradient(
+            to right,
+            rgba(11, 11, 11, 0.15),
+            rgba(11, 11, 11, 0.55)
+        ),
+        url("../assets/images/trending.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    position: relative;
+}
+
+
+/* =========================
+   OVERLAY
+========================= */
+
+.trending-overlay {
+    width: 100%;
+    min-height: 520px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: flex-end;
+
+    padding: 60px 100px;
+}
+
+
+/* =========================
+   CONTENT
+========================= */
+
+.trending-content {
+    width: 45%;
+
+    text-align: center;
+
+    padding: 50px 45px;
+
+    background: rgba(11, 11, 11, 0.72);
+
+    border: 1px solid rgba(201, 162, 39, 0.5);
+
+    backdrop-filter: blur(2px);
+}
+
+
+/* =========================
+   SMALL TITLE
+========================= */
+
+.trending-small {
+    color: #c9a227;
+
+    font-size: 12px;
+
+    font-weight: bold;
+
+    letter-spacing: 4px;
+
+    margin-bottom: 15px;
+}
+
+
+/* =========================
+   MAIN TITLE
+========================= */
+
+.trending-content h2 {
+    color: #e0c46c;
+
+    font-family: Georgia, "Times New Roman", serif;
+
+    font-size: 44px;
+
+    font-weight: normal;
+
+    letter-spacing: 1px;
+
+    margin-bottom: 18px;
+}
+
+
+/* =========================
+   DESCRIPTION
+========================= */
+
+.trending-description {
+    color: #e8e1d5;
+
+    font-family: Georgia, "Times New Roman", serif;
+
+    font-size: 16px;
+
+    line-height: 1.8;
+
+    margin-bottom: 30px;
+}
+
+
+/* =========================
+   BUTTON
+========================= */
+
+.trending-button {
+    display: inline-flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    min-width: 190px;
+
+    height: 48px;
+
+    padding: 0 25px;
+
+    border: 1px solid #c9a227;
+
+    background-color: transparent;
+
+    color: #e0c46c;
+
+    text-decoration: none;
+
+    font-size: 11px;
+
+    font-weight: bold;
+
+    letter-spacing: 2px;
+
+    transition: all 0.3s ease;
+}
+
+
+.trending-button:hover {
+    background-color: #c9a227;
+
+    color: #0b0b0b;
+
+    border-color: #c9a227;
+}
+
+
+/* =========================
+   HOVER IMAGE EFFECT
+========================= */
+
+.trending-section {
+    transition: background-position 0.5s ease;
+}
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 1000px) {
+
+    .trending-overlay {
+        padding: 50px;
+    }
+
+    .trending-content {
+        width: 50%;
+    }
+
+}
+
+
+@media (max-width: 750px) {
+
+    .trending-section {
+        min-height: 500px;
+
+        background-position: center;
+    }
+
+    .trending-overlay {
+        min-height: 500px;
+
+        justify-content: center;
+
+        padding: 35px 25px;
+    }
+
+    .trending-content {
+        width: 80%;
+
+        padding: 40px 30px;
+    }
+
+}
+
+
+@media (max-width: 500px) {
+
+    .trending-section {
+        min-height: 520px;
+    }
+
+    .trending-overlay {
+        min-height: 520px;
+
+        padding: 25px 18px;
+    }
+
+    .trending-content {
+        width: 100%;
+
+        padding: 35px 20px;
+    }
+
+    .trending-content h2 {
+        font-size: 34px;
+    }
+
+    .trending-description {
+        font-size: 14px;
+    }
+
+}

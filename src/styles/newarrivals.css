@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.new-arrivals {
+    width: 100%;
+
+    background-color: #0b0b0b;
+
+    padding: 60px 80px;
+}
+
+
+.new-arrivals-heading {
+    text-align: center;
+
+    margin-bottom: 55px;
+}
+
+
+/* SMALL GOLD TEXT */
+
+.new-arrivals-heading p {
+    color: #c9a227;
+
+    font-size: 11px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 4px;
+
+    margin-bottom: 12px;
+}
+
+
+/* MAIN HEADING */
+
+.new-arrivals-heading h1 {
+    color: #e0c46c;
+
+    font-family: Georgia, "Times New Roman", serif;
+
+    font-size: 44px;
+
+    font-weight: normal;
+
+    margin-bottom: 15px;
+}
+
+
+/* DESCRIPTION */
+
+.new-arrivals-heading span {
+    color: #b9b0a0;
+
+    font-size: 20px;
+
+    letter-spacing: 0.5px;
+}
+
+
+/* ============================= */
+/* PRODUCT CONTAINER */
+/* ============================= */
+
+.new-arrivals-products {
+    width: 100%;
+
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 25px;
+}
+
+
+/* ============================= */
+/* PRODUCT CARD */
+/* ============================= */
+
+.new-arrival-card {
+    background-color: #11100e;
+
+    border: 1px solid #302d27;
+
+    overflow: hidden;
+
+    transition: all 0.4s ease;
+
+    cursor: pointer;
+}
+
+
+.new-arrival-card:hover {
+    border-color: #c9a227;
+
+    transform: translateY(-7px);
+
+    box-shadow: 0 12px 30px rgba(201, 162, 39, 0.15);
+}
+
+
+/* ============================= */
+/* PRODUCT IMAGE */
+/* ============================= */
+
+.new-arrival-image {
+    height: 320px;
+
+    width: 100%;
+
+    background-color: #f5f1e8;
+
+    position: relative;
+
+    overflow: hidden;
+}
+
+
+.new-arrival-image img {
+    height: 100%;
+
+    width: 100%;
+
+    object-fit: cover;
+
+    transition: transform 0.5s ease;
+}
+
+
+.new-arrival-card:hover .new-arrival-image img {
+    transform: scale(1.06);
+}
+
+
+/* ============================= */
+/* NEW BADGE */
+/* ============================= */
+
+.new-badge {
+    position: absolute;
+
+    top: 15px;
+
+    left: 15px;
+
+    background-color: #0b0b0b;
+
+    color: #e0c46c;
+
+    border: 1px solid #c9a227;
+
+    padding: 7px 12px;
+
+    font-size: 9px;
+
+    letter-spacing: 2px;
+}
+
+
+/* ============================= */
+/* PRODUCT DETAILS */
+/* ============================= */
+
+.new-arrival-details {
+    padding: 22px;
+
+    text-align: center;
+}
+
+
+/* CATEGORY */
+
+.new-arrival-details p {
+    color: #c9a227;
+
+    font-size: 10px;
+
+    letter-spacing: 3px;
+
+    text-transform: uppercase;
+
+    margin-bottom: 9px;
+}
+
+
+/* PRODUCT NAME */
+
+.new-arrival-details h2 {
+    color: ivory;
+
+    font-family: Georgia, "Times New Roman", serif;
+
+    font-size: 19px;
+
+    font-weight: normal;
+
+    margin-bottom: 12px;
+}
+
+
+/* PRICE */
+
+.new-arrival-details span {
+    color: #e0c46c;
+
+    font-size: 14px;
+
+    letter-spacing: 1px;
+}
+
+
+/* ============================= */
+/* VIEW ALL BUTTON */
+/* ============================= */
+
+.new-arrivals-button {
+    text-align: center;
+
+    margin-top: 50px;
+}
+
+
+.new-arrivals-button a {
+    text-decoration: none;
+}
+
+
+.new-arrivals-button button {
+    padding: 14px 32px;
+
+    background-color: transparent;
+
+    border: 1px solid #c9a227;
+
+    color: #e0c46c;
+
+    font-size: 11px;
+
+    font-weight: bold;
+
+    letter-spacing: 2px;
+
+    cursor: pointer;
+
+    transition: all 0.3s ease;
+}
+
+
+.new-arrivals-button button:hover {
+    background-color: #c9a227;
+
+    border-color: #e0c46c;
+
+    color: #0b0b0b;
+
+    transform: translateY(-2px);
+
+    box-shadow: 0 5px 20px rgba(201, 162, 39, 0.25);
+}

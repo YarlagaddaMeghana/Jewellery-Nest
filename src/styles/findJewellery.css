@@ -1,0 +1,465 @@
+/* ==============================
+   FIND JEWELLERY PAGE
+============================== */
+
+.find-jewellery-page {
+    min-height: calc(100vh - 100px);
+
+    background-color: #080808;
+
+    color: ivory;
+
+    padding: 70px 8% 100px;
+
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+
+/* ==============================
+   HEADING
+============================== */
+
+.find-heading {
+    text-align: center;
+
+    max-width: 800px;
+
+    margin: 0 auto 55px;
+}
+
+
+.find-heading p {
+    color: #c9a227;
+
+    font-size: 13px;
+
+    letter-spacing: 5px;
+
+    margin-bottom: 15px;
+}
+
+
+.find-heading h1 {
+    color: #e0c46c;
+
+    font-size: 42px;
+
+    font-weight: normal;
+
+    margin-bottom: 18px;
+}
+
+
+.find-heading span {
+    color: #bdb8ae;
+
+    font-size: 16px;
+
+    line-height: 1.7;
+}
+
+
+/* ==============================
+   FORM
+============================== */
+
+.find-form {
+    max-width: 900px;
+
+    margin: 0 auto;
+
+    padding: 45px;
+
+    background-color: #0d0d0d;
+
+    border: 1px solid #332b1d;
+
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+}
+
+
+/* ==============================
+   QUESTION BOX
+============================== */
+
+.question-box {
+    margin-bottom: 30px;
+}
+
+
+.question-box label {
+    display: block;
+
+    color: #e0c46c;
+
+    font-size: 17px;
+
+    letter-spacing: 1px;
+
+    margin-bottom: 12px;
+}
+
+
+.question-box select {
+    width: 100%;
+
+    height: 52px;
+
+    padding: 0 18px;
+
+    background-color: #050505;
+
+    border: 1px solid #51452d;
+
+    color: ivory;
+
+    font-family: Georgia, "Times New Roman", serif;
+
+    font-size: 15px;
+
+    outline: none;
+
+    cursor: pointer;
+
+    transition: border-color 0.3s ease;
+}
+
+
+.question-box select:hover {
+    border-color: #c9a227;
+}
+
+
+.question-box select:focus {
+    border-color: #e0c46c;
+}
+
+
+/* ==============================
+   FIND BUTTON
+============================== */
+
+.find-button {
+    width: 100%;
+
+    height: 55px;
+
+    margin-top: 10px;
+
+    background-color: #c9a227;
+
+    color: #080808;
+
+    border: none;
+
+    font-family: Georgia, "Times New Roman", serif;
+
+    font-size: 15px;
+
+    font-weight: bold;
+
+    letter-spacing: 2px;
+
+    cursor: pointer;
+
+    transition:
+        background-color 0.3s ease,
+        transform 0.3s ease;
+}
+
+
+.find-button:hover {
+    background-color: #e0c46c;
+
+    transform: translateY(-2px);
+}
+
+
+/* ==============================
+   RESULTS
+============================== */
+
+.match-results {
+    max-width: 1200px;
+
+    margin: 75px auto 0;
+}
+
+
+.results-heading {
+    text-align: center;
+
+    margin-bottom: 40px;
+}
+
+
+.results-heading h2 {
+    color: #e0c46c;
+
+    font-size: 30px;
+
+    font-weight: normal;
+
+    margin-bottom: 10px;
+}
+
+
+.results-heading p {
+    color: #aaa;
+
+    font-size: 15px;
+}
+
+
+/* ==============================
+   PRODUCT GRID
+============================== */
+
+.result-grid {
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 25px;
+}
+
+
+/* ==============================
+   PRODUCT CARD
+============================== */
+
+.result-card {
+    background-color: #0d0d0d;
+
+    border: 1px solid #30281b;
+
+    overflow: hidden;
+
+    transition:
+        transform 0.3s ease,
+        border-color 0.3s ease;
+}
+
+
+.result-card:hover {
+    transform: translateY(-6px);
+
+    border-color: #c9a227;
+}
+
+
+/* ==============================
+   IMAGE
+============================== */
+
+.result-image {
+    width: 100%;
+
+    height: 250px;
+
+    background-color: #111;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    overflow: hidden;
+}
+
+
+.result-image img {
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: cover;
+
+    display: block;
+
+    transition: transform 0.4s ease;
+}
+
+
+.result-card:hover .result-image img {
+    transform: scale(1.04);
+}
+
+
+/* ==============================
+   DETAILS
+============================== */
+
+.result-details {
+    padding: 20px;
+}
+
+
+.result-details p {
+    color: #a99b76;
+
+    font-size: 12px;
+
+    letter-spacing: 2px;
+
+    margin-bottom: 8px;
+}
+
+
+.result-details h3 {
+    color: ivory;
+
+    font-size: 18px;
+
+    font-weight: normal;
+
+    line-height: 1.4;
+
+    margin-bottom: 10px;
+}
+
+
+.result-details span {
+    display: inline-block;
+
+    color: #c9a227;
+
+    font-size: 12px;
+
+    letter-spacing: 1px;
+
+    margin-bottom: 15px;
+}
+
+
+.result-details h4 {
+    color: #e0c46c;
+
+    font-size: 18px;
+
+    font-weight: normal;
+}
+
+
+/* ==============================
+   NO RESULTS
+============================== */
+
+.no-results {
+    max-width: 600px;
+
+    margin: 0 auto;
+
+    text-align: center;
+
+    padding: 50px 30px;
+
+    background-color: #0d0d0d;
+
+    border: 1px solid #332b1d;
+}
+
+
+.no-results h3 {
+    color: #e0c46c;
+
+    font-size: 24px;
+
+    font-weight: normal;
+
+    margin-bottom: 12px;
+}
+
+
+.no-results p {
+    color: #aaa;
+
+    font-size: 15px;
+
+    margin-bottom: 25px;
+}
+
+
+.no-results button {
+    padding: 12px 30px;
+
+    background-color: transparent;
+
+    border: 1px solid #c9a227;
+
+    color: #e0c46c;
+
+    font-family: Georgia, "Times New Roman", serif;
+
+    letter-spacing: 1px;
+
+    cursor: pointer;
+
+    transition:
+        background-color 0.3s ease,
+        color 0.3s ease;
+}
+
+
+.no-results button:hover {
+    background-color: #c9a227;
+
+    color: #080808;
+}
+
+
+/* ==============================
+   RESPONSIVE
+============================== */
+
+@media (max-width: 1000px) {
+
+    .result-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+
+
+@media (max-width: 750px) {
+
+    .find-jewellery-page {
+        padding: 50px 5% 70px;
+    }
+
+
+    .find-heading h1 {
+        font-size: 32px;
+    }
+
+
+    .find-form {
+        padding: 30px 25px;
+    }
+
+
+    .result-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+
+@media (max-width: 500px) {
+
+    .find-heading h1 {
+        font-size: 27px;
+    }
+
+
+    .find-form {
+        padding: 25px 18px;
+    }
+
+
+    .result-grid {
+        grid-template-columns: 1fr;
+    }
+
+}

@@ -1,0 +1,76 @@
+.admin-login-page {
+  min-height: 100vh;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+
+.admin-login-box {
+  width: 420px;
+  padding: 45px;
+  background: #111;
+  border: 1px solid #c9a227;
+  box-shadow: 0 0 30px rgba(201, 162, 39, 0.15);
+}
+
+.admin-brand {
+  color: #c9a227;
+  font-size: 14px;
+  letter-spacing: 3px;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.admin-login-box h1 {
+  color: ivory;
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.admin-login-subtitle {
+  color: #aaa;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.admin-login-box label {
+  display: block;
+  color: #e0c46c;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.admin-login-box input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 13px;
+  margin-bottom: 20px;
+  background: #000;
+  border: 1px solid #444;
+  color: ivory;
+  outline: none;
+}
+
+.admin-login-box input:focus {
+  border-color: #c9a227;
+}
+
+.admin-login-box button {
+  width: 100%;
+  padding: 14px;
+  margin-top: 10px;
+  background: #c9a227;
+  border: none;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+
+.admin-login-box button:hover {
+  background: #e0c46c;
+}

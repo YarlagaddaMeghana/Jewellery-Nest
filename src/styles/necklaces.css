@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* =========================
+   NECKLACES PAGE
+========================= */
+
+.necklaces-page {
+    min-height: 100vh;
+    width: 100%;
+
+    background-color: #0b0b0b;
+
+    padding: 60px 80px;
+}
+
+
+/* =========================
+   HEADING
+========================= */
+
+.necklaces-heading {
+    text-align: center;
+
+    margin-bottom: 50px;
+}
+
+.necklaces-heading h1 {
+    color: #e0c46c;
+
+    font-family: Georgia, "Times New Roman", serif;
+
+    font-size: 42px;
+
+    font-weight: normal;
+
+    letter-spacing: 1px;
+
+    margin-bottom: 12px;
+}
+
+.necklaces-heading p {
+    color: #a8a29a;
+
+    font-size: 15px;
+
+    letter-spacing: 1px;
+
+    line-height: 1.6;
+}
+
+
+/* =========================
+   PRODUCTS GRID
+========================= */
+
+.necklaces-products {
+    width: 100%;
+
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 30px;
+}
+
+
+/* =========================
+   PRODUCT CARD
+========================= */
+
+.product-card {
+    background-color: #11100e;
+
+    border: 1px solid #302d27;
+
+    transition: all 0.35s ease;
+
+    overflow: hidden;
+}
+
+.product-card:hover {
+    border-color: #c9a227;
+
+    transform: translateY(-6px);
+
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5);
+}
+
+
+/* =========================
+   PRODUCT IMAGE
+========================= */
+
+.product-image {
+    width: 100%;
+
+    height: 320px;
+
+    background-color: #f5f1e8;
+
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-image img {
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: cover;
+
+    transition: transform 0.45s ease;
+}
+
+.product-card:hover .product-image img {
+    transform: scale(1.05);
+}
+
+
+/* =========================
+   PRODUCT DETAILS
+========================= */
+
+.product-details {
+    padding: 22px;
+
+    text-align: center;
+}
+
+.product-details h3 {
+    color: ivory;
+
+    font-family: Georgia, "Times New Roman", serif;
+
+    font-size: 18px;
+
+    font-weight: normal;
+
+    letter-spacing: 0.5px;
+
+    margin-bottom: 8px;
+}
+
+.product-details p {
+    color: #8f8a82;
+
+    font-size: 12px;
+
+    letter-spacing: 1px;
+
+    text-transform: uppercase;
+
+    margin-bottom: 12px;
+}
+
+.product-details h4 {
+    color: #c9a227;
+
+    font-family: Georgia, "Times New Roman", serif;
+
+    font-size: 17px;
+
+    font-weight: normal;
+
+    letter-spacing: 0.5px;
+
+    margin-bottom: 18px;
+}
+
+
+/* =========================
+   VIEW DETAILS LINK
+========================= */
+
+.product-details .view-details {
+    display: flex;
+
+    width: 100%;
+
+    height: 42px;
+
+    align-items: center;
+
+    justify-content: center;
+
+    background-color: transparent;
+
+    border: 1px solid #c9a227;
+
+    color: #e0c46c;
+
+    text-decoration: none;
+
+    font-family: Georgia, "Times New Roman", serif;
+
+    font-size: 11px;
+
+    font-weight: bold;
+
+    letter-spacing: 2px;
+
+    transition: all 0.3s ease;
+}
+
+.product-details .view-details:hover {
+    background-color: #c9a227;
+
+    color: #0b0b0b;
+
+    box-shadow: 0 5px 15px rgba(201, 162, 39, 0.2);
+}
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 1100px) {
+
+    .necklaces-products {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+
+
+@media (max-width: 800px) {
+
+    .necklaces-page {
+        padding: 40px 30px;
+    }
+
+    .necklaces-products {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .necklaces-heading h1 {
+        font-size: 36px;
+    }
+
+}
+
+
+@media (max-width: 500px) {
+
+    .necklaces-page {
+        padding: 30px 20px;
+    }
+
+    .necklaces-heading h1 {
+        font-size: 32px;
+    }
+
+    .necklaces-heading p {
+        font-size: 13px;
+    }
+
+    .necklaces-products {
+        grid-template-columns: 1fr;
+    }
+
+}

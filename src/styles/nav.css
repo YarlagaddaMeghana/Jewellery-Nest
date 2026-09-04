@@ -1,0 +1,499 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ==============================
+   NAVBAR
+============================== */
+
+nav {
+    height: 100px;
+    width: 100%;
+
+    background-color: #000;
+
+    display: flex;
+    align-items: center;
+
+    padding: 0 40px;
+
+    border-bottom: 1px solid #2d2618;
+
+    position: relative;
+    z-index: 1000;
+}
+
+
+/* ==============================
+   LOGO
+============================== */
+
+.nav-logo {
+    width: 22%;
+
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    flex-shrink: 0;
+}
+
+.nav-logo a {
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo img {
+    width: 300px;
+    height: auto;
+
+    display: block;
+}
+
+
+/* ==============================
+   MAIN NAVIGATION
+============================== */
+
+.nav-link {
+    width: 45%;
+
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    flex-shrink: 0;
+}
+
+
+/* ALL MAIN LINKS SAME COLOR */
+
+.nav-link > a {
+    color: ivory;
+
+    text-decoration: none;
+
+    font-family: Georgia, "Times New Roman", serif;
+
+    font-size: 19px;
+
+    font-weight: normal;
+
+    white-space: nowrap;
+
+    transition: color 0.3s ease;
+}
+
+
+/* SAME HOVER COLOR */
+
+.nav-link > a:hover {
+    color: #e0c46c;
+}
+
+
+/* REMOVE SPECIAL GOLD COLOR */
+
+.find-match-link {
+    color: ivory !important;
+
+    transition: color 0.3s ease;
+}
+
+.find-match-link:hover {
+    color: #e0c46c !important;
+}
+
+
+/* ==============================
+   CATEGORIES
+============================== */
+
+.categories-menu {
+    width: 11%;
+
+    height: 100%;
+
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-shrink: 0;
+}
+
+
+/* CATEGORY TITLE */
+
+.category-title {
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: ivory;
+
+    cursor: pointer;
+
+    font-family: Georgia, "Times New Roman", serif;
+
+    font-size: 19px;
+
+    font-weight: normal;
+
+    white-space: nowrap;
+
+    transition: color 0.3s ease;
+}
+
+
+/* CATEGORY HOVER */
+
+.category-title:hover {
+    color: #e0c46c;
+}
+
+
+/* ==============================
+   CATEGORY DROPDOWN
+============================== */
+
+.category-dropdown {
+    position: absolute;
+
+    top: 100%;
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    width: 500px;
+
+    background-color: #0b0b0b;
+
+    border: 1px solid #3a3020;
+
+    padding: 30px 40px;
+
+    display: flex;
+
+    gap: 70px;
+
+    opacity: 0;
+
+    visibility: hidden;
+
+    pointer-events: none;
+
+    transition:
+        opacity 0.3s ease,
+        visibility 0.3s ease;
+
+    z-index: 2000;
+
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.7);
+}
+
+
+/* SHOW DROPDOWN */
+
+.categories-menu:hover .category-dropdown {
+    opacity: 1;
+
+    visibility: visible;
+
+    pointer-events: auto;
+}
+
+
+/* ==============================
+   CATEGORY COLUMNS
+============================== */
+
+.category-column {
+    display: flex;
+
+    flex-direction: column;
+
+    min-width: 150px;
+}
+
+
+/* COLUMN HEADINGS */
+
+.category-column h3 {
+    color: #c9a227;
+
+    font-family: Georgia, "Times New Roman", serif;
+
+    font-size: 18px;
+
+    font-weight: normal;
+
+    letter-spacing: 2px;
+
+    margin-bottom: 18px;
+
+    padding-bottom: 10px;
+
+    border-bottom: 1px solid #3a3020;
+}
+
+
+/* DROPDOWN LINKS */
+
+.category-column a {
+    color: #d8d2c7;
+
+    text-decoration: none;
+
+    font-family: Georgia, "Times New Roman", serif;
+
+    font-size: 14px;
+
+    letter-spacing: 1px;
+
+    margin-bottom: 14px;
+
+    transition:
+        color 0.3s ease,
+        padding-left 0.3s ease;
+}
+
+
+/* DROPDOWN HOVER */
+
+.category-column a:hover {
+    color: #e0c46c;
+
+    padding-left: 6px;
+}
+
+
+/* ==============================
+   RIGHT SIDE ICONS
+============================== */
+
+.nav-icons {
+    width: 22%;
+
+    height: 100%;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-evenly;
+
+    flex-shrink: 0;
+}
+
+
+/* LOGIN + ICON LINKS */
+
+.nav-icons a {
+    text-decoration: none;
+
+    color: ivory;
+
+    font-family: Georgia, "Times New Roman", serif;
+
+    font-size: 19px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    white-space: nowrap;
+
+    transition: color 0.3s ease;
+}
+
+
+/* SAME HOVER FOR LOGIN */
+
+.nav-icons a:hover {
+    color: #e0c46c;
+}
+
+
+/* ==============================
+   ICONS
+============================== */
+
+.nav-icons svg {
+    color: #e0c46c;
+
+    font-size: 22px;
+
+    cursor: pointer;
+
+    transition:
+        color 0.3s ease,
+        transform 0.3s ease;
+}
+
+
+/* ICON HOVER */
+
+.nav-icons svg:hover {
+    color: #e0c46c;
+
+    transform: translateY(-2px);
+}
+
+
+/* ==============================
+   ICON WRAPPER
+============================== */
+
+.nav-icon-wrapper {
+    position: relative;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+}
+
+
+/* ==============================
+   ICON COUNT
+============================== */
+
+.nav-count {
+    position: absolute;
+
+    top: -10px;
+    right: -12px;
+
+    min-width: 19px;
+    height: 19px;
+
+    padding: 0 5px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    background-color: #c9a227;
+
+    color: #0b0b0b;
+
+    border-radius: 50%;
+
+    font-size: 11px;
+
+    font-weight: bold;
+
+    font-family: Arial, sans-serif;
+}
+
+
+/* ==============================
+   RESPONSIVE
+============================== */
+
+@media (max-width: 1400px) {
+
+    nav {
+        padding: 0 25px;
+    }
+
+    .nav-logo {
+        width: 21%;
+    }
+
+    .nav-logo img {
+        width: 250px;
+    }
+
+    .nav-link {
+        width: 46%;
+    }
+
+    .nav-link > a {
+        font-size: 17px;
+    }
+
+    .categories-menu {
+        width: 11%;
+    }
+
+    .category-title {
+        font-size: 17px;
+    }
+
+    .nav-icons {
+        width: 22%;
+    }
+
+    .nav-icons a {
+        font-size: 17px;
+    }
+
+    .nav-icons svg {
+        font-size: 20px;
+    }
+}
+
+
+/* ==============================
+   SMALL LAPTOP
+============================== */
+
+@media (max-width: 1100px) {
+
+    nav {
+        padding: 0 20px;
+    }
+
+    .nav-logo {
+        width: 20%;
+    }
+
+    .nav-logo img {
+        width: 210px;
+    }
+
+    .nav-link {
+        width: 47%;
+    }
+
+    .nav-link > a {
+        font-size: 15px;
+    }
+
+    .categories-menu {
+        width: 10%;
+    }
+
+    .category-title {
+        font-size: 15px;
+    }
+
+    .nav-icons {
+        width: 23%;
+    }
+
+    .nav-icons a {
+        font-size: 15px;
+    }
+
+    .nav-icons svg {
+        font-size: 19px;
+    }
+}

@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* =========================
+   MEN'S BRACELETS PAGE
+========================= */
+
+.men-bracelets-page {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #0b0b0b;
+    padding: 70px 80px;
+}
+
+
+/* =========================
+   HEADING
+========================= */
+
+.men-bracelets-heading {
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.men-bracelets-heading h1 {
+    color: #e0c46c;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 42px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.men-bracelets-heading p {
+    color: #a8a29a;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 1.7;
+}
+
+
+/* =========================
+   PRODUCTS GRID
+========================= */
+
+.men-bracelets-products {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+
+/* =========================
+   PRODUCT CARD
+========================= */
+
+.men-bracelet-card {
+    background-color: #11100e;
+    border: 1px solid #302d27;
+    overflow: hidden;
+    transition: all 0.4s ease;
+}
+
+.men-bracelet-card:hover {
+    border-color: #c9a227;
+    transform: translateY(-7px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6);
+}
+
+
+/* =========================
+   PRODUCT IMAGE
+========================= */
+
+.men-bracelet-image {
+    width: 100%;
+    height: 320px;
+    background-color: #f5f1e8;
+    overflow: hidden;
+}
+
+.men-bracelet-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: transform 0.5s ease;
+}
+
+.men-bracelet-card:hover .men-bracelet-image img {
+    transform: scale(1.06);
+}
+
+
+/* =========================
+   PRODUCT DETAILS
+========================= */
+
+.men-bracelet-details {
+    padding: 23px;
+    text-align: center;
+}
+
+.men-bracelet-details h3 {
+    color: ivory;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 19px;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+    margin-bottom: 9px;
+}
+
+.men-bracelet-details p {
+    color: #817c73;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-bottom: 13px;
+}
+
+.men-bracelet-details h4 {
+    color: #e0c46c;
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+    margin-bottom: 20px;
+}
+
+
+/* =========================
+   VIEW PRODUCT BUTTON
+========================= */
+
+.men-bracelet-details a {
+    text-decoration: none;
+    display: block;
+}
+
+.men-bracelet-details button {
+    width: 100%;
+    height: 44px;
+
+    background-color: transparent;
+
+    border: 1px solid #c9a227;
+
+    color: #e0c46c;
+
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+    cursor: pointer;
+
+    transition: all 0.35s ease;
+}
+
+.men-bracelet-details button:hover {
+    background-color: #c9a227;
+    color: #0b0b0b;
+
+    box-shadow: 0 5px 15px rgba(201, 162, 39, 0.2);
+}
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 1100px) {
+
+    .men-bracelets-products {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+
+
+@media (max-width: 800px) {
+
+    .men-bracelets-page {
+        padding: 50px 30px;
+    }
+
+    .men-bracelets-products {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 22px;
+    }
+
+    .men-bracelet-image {
+        height: 280px;
+    }
+
+}
+
+
+@media (max-width: 500px) {
+
+    .men-bracelets-page {
+        padding: 40px 20px;
+    }
+
+    .men-bracelets-heading h1 {
+        font-size: 32px;
+    }
+
+    .men-bracelets-heading p {
+        font-size: 13px;
+    }
+
+    .men-bracelets-products {
+        grid-template-columns: 1fr;
+    }
+
+    .men-bracelet-image {
+        height: 320px;
+    }
+
+}

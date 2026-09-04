@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* =========================
+   TRENDING PAGE
+========================= */
+
+.trending-page {
+    min-height: 100vh;
+
+    background-color: #0b0b0b;
+
+    padding: 65px 70px 80px;
+}
+
+
+/* =========================
+   HEADING
+========================= */
+
+.trending-page-heading {
+    text-align: center;
+
+    margin-bottom: 55px;
+}
+
+.trending-page-heading p {
+    color: #c9a227;
+
+    font-size: 11px;
+
+    letter-spacing: 3px;
+
+    margin-bottom: 12px;
+}
+
+.trending-page-heading h1 {
+    color: #e0c46c;
+
+    font-family: Georgia, "Times New Roman", serif;
+
+    font-size: 42px;
+
+    font-weight: normal;
+
+    letter-spacing: 1px;
+
+    margin-bottom: 12px;
+}
+
+.trending-page-heading span {
+    color: #a8a29a;
+
+    font-size: 14px;
+
+    letter-spacing: 1px;
+}
+
+
+/* =========================
+   PRODUCTS
+========================= */
+
+.trending-products {
+    width: 100%;
+
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 30px;
+}
+
+
+/* =========================
+   CARD
+========================= */
+
+.trending-card {
+    background-color: #11110f;
+
+    border: 1px solid #302d27;
+
+    overflow: hidden;
+
+    transition: 0.3s ease;
+}
+
+.trending-card:hover {
+    border-color: #c9a227;
+
+    transform: translateY(-6px);
+
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5);
+}
+
+
+/* =========================
+   IMAGE
+========================= */
+
+.trending-image {
+    width: 100%;
+
+    height: 310px;
+
+    background-color: #f5f1e8;
+
+    overflow: hidden;
+}
+
+.trending-image img {
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: cover;
+
+    display: block;
+
+    transition: 0.4s ease;
+}
+
+.trending-card:hover .trending-image img {
+    transform: scale(1.05);
+}
+
+
+/* =========================
+   DETAILS
+========================= */
+
+.trending-details {
+    padding: 22px;
+
+    text-align: center;
+}
+
+.trending-details p {
+    color: #8f8a82;
+
+    font-size: 11px;
+
+    letter-spacing: 2px;
+
+    text-transform: uppercase;
+
+    margin-bottom: 10px;
+}
+
+.trending-details h3 {
+    color: ivory;
+
+    font-family: Georgia, "Times New Roman", serif;
+
+    font-size: 18px;
+
+    font-weight: normal;
+
+    margin-bottom: 12px;
+}
+
+.trending-details h4 {
+    color: #c9a227;
+
+    font-size: 17px;
+
+    font-weight: normal;
+
+    margin-bottom: 18px;
+}
+
+
+/* =========================
+   VIEW PRODUCT
+========================= */
+
+.trending-view {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    width: 100%;
+
+    height: 42px;
+
+    border: 1px solid #c9a227;
+
+    color: #e0c46c;
+
+    text-decoration: none;
+
+    font-size: 11px;
+
+    font-weight: bold;
+
+    letter-spacing: 2px;
+
+    transition: 0.3s ease;
+}
+
+.trending-view:hover {
+    background-color: #c9a227;
+
+    color: #0b0b0b;
+}
+
+
+/* =========================
+   BACK
+========================= */
+
+.trending-back {
+    text-align: center;
+
+    margin-top: 55px;
+}
+
+.trending-back a {
+    color: #c9a227;
+
+    text-decoration: none;
+
+    font-size: 11px;
+
+    letter-spacing: 2px;
+
+    transition: 0.3s ease;
+}
+
+.trending-back a:hover {
+    color: #e0c46c;
+}
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 1100px) {
+
+    .trending-products {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+
+
+@media (max-width: 800px) {
+
+    .trending-page {
+        padding: 50px 30px;
+    }
+
+    .trending-products {
+        grid-template-columns: repeat(2, 1fr);
+
+        gap: 20px;
+    }
+
+}
+
+
+@media (max-width: 500px) {
+
+    .trending-page {
+        padding: 40px 20px;
+    }
+
+    .trending-page-heading h1 {
+        font-size: 32px;
+    }
+
+    .trending-products {
+        grid-template-columns: 1fr;
+    }
+
+}
