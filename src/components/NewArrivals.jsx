@@ -7,11 +7,10 @@ const NewArrivals = () => {
 
   let [products, setproducts] = useState([])
 
-  axios.get(`${import.meta.env.VITE_API_URL}/products`)
 
   useEffect(() => {
 
-    axios.get(url)
+    axios.get(`${import.meta.env.VITE_API_URL}/products`)
       .then(res => {
         setproducts(res.data.slice(0, 4))
       })
